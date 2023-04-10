@@ -1,0 +1,28 @@
+{
+  "name": "V2Box",
+  "version": "1.0.0",
+  "description": "V2Box a V2ray client for Linux with Xray-Core",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Hossin Asaadi",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "^24.0.0"
+  },
+  "dependencies": {
+    "@npmcli/config": "^6.1.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.1.0",
+    "sudo-prompt": "^9.2.1"
+  }
+}

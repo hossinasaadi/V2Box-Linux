@@ -1,0 +1,4 @@
+node_modules/*
+out/*
+Tunnel/xray
+Tunnel/tun2socks
