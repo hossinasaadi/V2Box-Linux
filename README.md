@@ -8,6 +8,12 @@ V2Box is V2ray client for Linux with Xray-Core (Full Tunnel)
 3) set your server IP or Domain 
 4) Start Xray
 
+## Info
+~ your inbound settings will replace with tun2socks port (10808)
+
+![Window](https://github.com/hossinasaadi/V2Box-Linux/raw/master/docs/window.png)
+
+
 ## :book: Pre-Requirements For Development
 
 1) download your system tun2socks from https://github.com/xjasonlyu/tun2socks/releases/latest and put tun2socks to `/Tunnel/tun2socks`
