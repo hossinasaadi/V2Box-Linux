@@ -17,6 +17,7 @@
     "@electron-forge/maker-rpm": "^6.1.1",
     "@electron-forge/maker-squirrel": "^6.1.1",
     "@electron-forge/maker-zip": "^6.1.1",
+    "@electron-forge/publisher-github": "^6.1.1",
     "electron": "^24.0.0"
   },
   "dependencies": {
@@ -24,5 +25,33 @@
     "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^8.1.0",
     "sudo-prompt": "^9.2.1"
+  },
+  "config": {
+  "forge": {
+    "makers": [
+      {
+        "name": "@electron-forge/maker-zip",
+        "platforms": [
+          "darwin"
+        ]
+      },
+      {
+        "name": "@electron-forge/maker-deb",
+        "config": {}
+      }
+    ],
+    "publishers": [
+      {
+        "name": "@electron-forge/publisher-github",
+        "config": {
+          "repository": {
+            "owner": "hossinasaadi",
+            "name": "V2Box-Linux"
+          }
+        }
+      }
+    ]
   }
+  }
+
 }
