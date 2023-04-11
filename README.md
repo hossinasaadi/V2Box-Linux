@@ -3,7 +3,7 @@ V2Box is V2ray client for Linux with Xray-Core (Full Tunnel)
 
 ## Download On Ubuntu
 
-1) run `curl -LO https://github.com/hossinasaadi/V2Box-Linux/releases/download/1.0.0/v2box-linux_1.0.0_amd64.deb && sudo dpkg -i v2box-linux_1.0.0_amd64.deb`
+1) Download .deb file from [Releases](https://github.com/hossinasaadi/V2Box-Linux/releases/latest) and run `sudo dpkg -i v2box-linux_x.x.x_amd64.deb` in terminal to install
 2) copy config.json to config textarea
 3) set your server IP or Domain 
 4) Start Xray
@@ -27,3 +27,4 @@ V2Box is V2ray client for Linux with Xray-Core (Full Tunnel)
 
 1) support v2ray URI
 2) a little more cleaner UI/UX :/
+3) fix some bugs in darwin
