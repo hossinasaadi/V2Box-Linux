@@ -1,6 +1,6 @@
 {
   "name": "V2Box",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "V2Box a V2ray client for Linux with Xray-Core",
   "main": "main.js",
   "scripts": {
